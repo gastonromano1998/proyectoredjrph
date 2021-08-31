@@ -1,0 +1,33 @@
+/* LISTAS */
+$colores:
+red,
+#914c0c,
+#F7DC6F, 
+#ECF0F1, 
+#85929E,
+blanchedalmond,
+brown,
+#2E4053,
+#ECF0F1,
+#ECF0F1;
+/* TITULOS DEL INICIO */
+.titulo-section {
+    color:  nth($colores, 9);
+}
+/* TITULO DEL SOBRE MI */
+.titulo-sobremi {
+    color: nth($colores , 9);
+}
+/* TEXTO DEL SOBRE MI */
+.contenedor-sobremi p {
+    color: nth($colores, 4);
+}
+/* TITULO FOTOGRAFIA MANUAL */
+.titulo-iso {
+    color: nth($colores, 4);
+}
+/* TEXTO FOTOGRAFIA MANUAL */
+.texto-iso {
+    color: nth($colores, 10);
+}
+

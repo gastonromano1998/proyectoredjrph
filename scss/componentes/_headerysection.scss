@@ -1,0 +1,38 @@
+@import "../base/mixin";
+/* fondo de pantalla al header */
+header {
+    background: radial-gradient(#641E16, #95A5A6, #85929E);
+    padding: 25px;
+}
+/* fondo de pantalla para todas mis paginas al section */
+body {
+    background: radial-gradient(#17202A, #E74C3C, #808B96, #F5B7B1, #F5B7B1);
+}
+
+/* reduccion de tamaño al logo del proyecto */
+.animacion-logo {
+    display: flex;
+    justify-content: center;
+    animation-duration: 7s;
+    animation-name: animLogo;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animLogo {
+    from {
+        @include prefijo (rotatey(0deg));
+    }
+
+    50% {
+        @include prefijo (rotatey(180deg));
+    }
+
+    to {
+        @include prefijo (rotatey(360deg));
+    }
+}
+.logo img {
+    width: 30%;
+    
+}
+

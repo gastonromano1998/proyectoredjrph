@@ -1,0 +1,24 @@
+/* CSS CONTACTO */
+.fondo-contacto {
+    background-color: rgba(148, 106, 106, 0.993);
+    padding: 20px;
+}
+
+/* LOGO WHATSAPP IMAGEN */
+#whatsapp img {
+    width: 50px;
+}
+
+/* LOGO WHSATSAPP */
+#whatsapp {
+    display: flex;
+    float: right;
+    padding: 10px;
+}
+/* CONTAINER AL GOOGLE MAPS */
+.mapa-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: #5D6D7E;
+}

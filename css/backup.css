@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+/* CSS CONTACTO */
+.fondo-contacto {
+    background-color: rgba(148, 106, 106, 0.993);
+    padding: 20px;
+}
+
+/* LOGO WHATSAPP IMAGEN */
+#whatsapp img {
+    width: 50px;
+}
+
+/* LOGO WHSATSAPP */
+#whatsapp {
+    display: flex;
+    float: right;
+    padding: 10px;
+}
+
+/* FOOTER */
+.container-footer {
+    background: black;
+    padding: 10px;
+}
+
+/* FOOTER */
+.container-footer img {
+    width: 25px;
+}
+
+/* FOOTER*/
+.telefono-footer {
+    color: blanchedalmond;
+    display: flex;
+    float: right;
+}
+
+.container-footer {
+    background: radial-gradient(#FCF3CF, #FDF2E9, #FAE5D3);
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.logos-footer {
+    padding: 30spx;
+}
+
+.logo-footer img {
+    width: 25px;
+}
+
+.logo-footer {
+    padding: 15px;
+}
+
+/* CSS FOTOGRAFIA MANUAL */
+.titulo-iso {
+    color: #a72260;
+    display: flex;
+    justify-content: center;
+    font-family: "Cinzel", serif;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+/* CSS FOTOGRAFIA MANUAL */
+.texto-iso {
+    color: #473832;
+    padding: 15px;
+    font-family: "Space Mono", monospace;
+}
+
+/* CSS FOTOGRAFIA MANUAL */
+.fotos-iso {
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
+
+/* CSS FOTOGRAFIA MANUAL */
+.fotos-iso img {
+    width: 500px;
+    padding: 20px;
+}
+
+/* GALERIA */
+.galeria-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+/* GALERIA */
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* EUROPA */
+.galeria-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+/* GALERIA */
+.galeria-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+/* GALERIA */
+.galeria-item:nth-child(1) {
+    grid-row-start: span 2;
+}
+
+/* GALERIA */
+.galeria-item:nth-child(8) {
+    grid-row-start: span 2;
+}
+
+/* ESTADOS UNIDOS */
+.usa-item:nth-child(9) {
+    grid-row-start: span 2;
+}
+
+/* ESTADOS UNIDOS */
+.usa-item:nth-child(12) {
+    grid-row-start: span 2;
+}
+
+/* fondo de pantalla al header */
+header {
+    background: radial-gradient(#641E16, #95A5A6, #85929E);
+    padding: 25px;
+}
+
+/* reduccion de tamaño al logo del proyecto */
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 30%;
+}
+
+/* ALINEACION DE TITULOS PARA MIS SECCIONES DE INICIO */
+.titulo-section {
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+/* PATROCINADORES IMAGENES */
+.imgGrid img {
+    width: 100%;
+    height: 80%;
+}
+
+/* fondo de pantalla para todas mis paginas al section y footer */
+body {
+    background: radial-gradient(#F7DC6F, #ECF0F1, #85929E);
+}
+
+/* CSS SOBRE MI */
+.contenedor-sobremi p {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    color: #914c0c;
+    font-size: medium;
+    font-family: "Space Mono", monospace;
+}
+
+/* CSS SOBRE MI */
+.contenedor-sobremi img {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    padding: 10px 10px;
+}
+
+/* CSS SOBRE MI */
+.titulo-sobremi {
+    display: flex;
+    justify-content: center;
+    font-family: "Space Mono", monospace;
+    color: #745819;
+    margin-bottom: 60px;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+/* MOBILE FIRST GALERIA */
+@media only screen and (max-width: 576px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+/* LISTAS */
+/* TITULOS DEL INICIO */
+.titulo-section {
+    color: brown;
+}
+
+/* TITULO DEL SOBRE MI*/
+.titulo-sobremi {
+    color: #914c0c;
+}
+
+/*# sourceMappingURL=style.css.map */

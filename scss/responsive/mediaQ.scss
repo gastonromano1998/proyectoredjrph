@@ -1,0 +1,8 @@
+/* MOBILE FIRST GALERIA */
+@media only screen and (max-width: 576px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}

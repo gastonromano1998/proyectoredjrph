@@ -1,0 +1,29 @@
+/* CSS FOTOGRAFIA MANUAL */
+%fotografiamanual {
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+
+}
+.titulo-iso {
+    font-size: xx-large;
+    padding: 20px;
+    @extend %fotografiamanual
+}
+
+.texto-iso {
+    padding: 15px;
+    @extend %fotografiamanual
+}
+
+.fotos-iso {
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
+
+/* CSS FOTOGRAFIA MANUAL */
+.fotos-iso img {
+    width: 500px;
+    padding: 20px;
+}

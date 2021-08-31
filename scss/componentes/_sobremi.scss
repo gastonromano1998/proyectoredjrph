@@ -1,0 +1,50 @@
+/* CSS SOBRE MI */
+.contenedor-sobremi p {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    font-size: medium;
+    font-family: 'Space Mono', monospace;
+}
+
+/* CSS SOBRE MI */
+.contenedor-sobremi img {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    padding: 10px 10px;
+}
+
+/* CSS SOBRE MI */
+.titulo-sobremi {
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 60px;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.animacion-sobremi {
+    animation-duration: 3s;
+    animation-name: animTexto;
+    margin: 20px;
+}
+
+@keyframes animTexto {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.container-cardsobremi {
+    padding: 20px 20px;
+}

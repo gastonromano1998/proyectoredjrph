@@ -1,0 +1,8 @@
+@mixin prefijo ($rotatey) {
+    transform: $rotatey;
+    -webkit-transform: $rotatey;
+    -o-transform: $rotatey;
+    -moz-transform: $rotatey;
+}
+
+
