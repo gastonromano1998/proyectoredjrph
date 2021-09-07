@@ -1,3 +1,4 @@
-# ignora la carpeta de node
-package_lock.json
-package.json
+
+
+node/package-lock.json
+node/package.json
