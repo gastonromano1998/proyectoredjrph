@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- protocolo open graph -->
-    <meta property="og:title" content="pagina web de fotografia llamada redjr.ph. Encontraras ka mejor fotografia de paisaje con fotos sacadas en los lugares mas lindos del mundo">
+    <meta property="og:title"
+        content="pagina web de fotografia llamada redjr.ph. Encontraras ka mejor fotografia de paisaje con fotos sacadas en los lugares mas lindos del mundo">
     <meta property="og:image" content="">
     <!-- se coloca la url una vez que este subida -->
     <meta property="" content="">
@@ -27,6 +28,8 @@
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- incorporando CSS a mi HTML -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- incorporando logos para el social bar -->
+    <link rel="stylesheet" href="fonts.css">
     <!-- instalando AOS animaciones -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- logo en el navegador -->
@@ -36,17 +39,16 @@
 <body>
     <header>
         <!-- logo del proyecto -->
-        <!-- logo del proyecto -->
-        <div class="animacion-logo">
+        <div class="animacion-logo mt-5">
             <h1>
                 <img class="logo" src="https://i.ibb.co/S08MynP/Logo-Makr-8-MUj-Io.png"
                     alt="la camara, las montañas y el viajar es la combinacion perfecta">
             </h1>
         </div>
         <!-- menu principal del proyecto -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">California, Arizona y Nevada</a>
+                <a class="navbar-brand" href="#">Arte moderno</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -84,6 +86,17 @@
             </div>
         </nav>
     </header>
+    <!-- SOCIAL BAR -->
+    <div class="social">
+        <ul>
+            <li> <a href="https://www.facebook.com/" class="icon-facebook2"></a></li>
+            <li> <a href="https://www.instagram.com/?hl=es" class="icon-instagram"></a></li>
+            <li> <a href="https://api.whatsapp.com/send?phone=1159776842" class="icon-whatsapp"></a></li>
+            <li> <a href="https://ar.pinterest.com/" class="icon-pinterest"></a></li>
+            <li> <a href="https://www.youtube.com/" class="icon-youtube"></a></li>
+            <li> <a href="https://www.linkedin.com/feed/" class="icon-linkedin"></a></li>
+        </ul>
+    </div>
     <!-- comienza la section de la galeria -->
     <section class="galeria-container">
         <div data-aos="zoom-in-left" class="card pb-5 bg-transparent">
