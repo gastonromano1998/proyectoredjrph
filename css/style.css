@@ -91,11 +91,11 @@ body {
 .social {
   position: fixed;
   right: 0;
-  top: 35%;
+  bottom: 0;
   font-size: 1.5rem;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
   z-index: 100;
 }
 
@@ -107,6 +107,7 @@ body {
 /* header y section (social bar) */
 .social ul li a {
   display: inline-block;
+  flex-direction: row;
   color: #fff;
   background: #000;
   padding: 10px 15px;
@@ -179,28 +180,6 @@ body {
   margin-bottom: 60px;
   font-size: xx-large;
   padding: 20px;
-}
-
-/* sobre mi */
-.animacion-sobremi {
-  animation-duration: 3s;
-  animation-name: animTexto;
-  margin: 20px;
-}
-
-/* sobre mi */
-@keyframes animTexto {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-.container-cardsobremi {
-  padding: 20px 20px;
 }
 
 /* MOBILE FIRST GALERIA */

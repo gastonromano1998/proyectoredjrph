@@ -27,24 +27,3 @@
     font-size: xx-large;
     padding: 20px;
 }
-/* sobre mi */
-.animacion-sobremi {
-    animation-duration: 3s;
-    animation-name: animTexto;
-    margin: 20px;
-}
-/* sobre mi */
-@keyframes animTexto {
-    from {
-        margin-left: 100%;
-        width: 100%;
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-.container-cardsobremi {
-    padding: 20px 20px;
-}
