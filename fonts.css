@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ewyon');
-  src:  url('fonts/icomoon.eot?ewyon#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ewyon') format('truetype'),
-    url('fonts/icomoon.woff?ewyon') format('woff'),
-    url('fonts/icomoon.svg?ewyon#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ufjyy2');
+  src:  url('fonts/icomoon.eot?ufjyy2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ufjyy2') format('truetype'),
+    url('fonts/icomoon.woff?ufjyy2') format('woff'),
+    url('fonts/icomoon.svg?ufjyy2#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-home3:before {
+  content: "\e902";
+}
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-camera:before {
+  content: "\e90f";
+}
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-phone:before {
+  content: "\e942";
+}
 .icon-mail:before {
   content: "\ea83";
 }

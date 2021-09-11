@@ -1,22 +1,10 @@
 @charset "UTF-8";
-/* CSS CONTACTO */
+/* contacto */
 .fondo-contacto {
   padding: 20px;
 }
 
-/* LOGO WHATSAPP IMAGEN */
-#whatsapp img {
-  width: 50px;
-}
-
-/* LOGO WHSATSAPP */
-#whatsapp {
-  display: flex;
-  float: right;
-  padding: 10px;
-}
-
-/* CONTAINER AL GOOGLE MAPS */
+/* contacto */
 .mapa-container {
   display: flex;
   justify-content: center;
@@ -24,70 +12,7 @@
   background-color: #5D6D7E;
 }
 
-/* FOOTER */
-.container-footer {
-  background: black;
-  padding: 10px;
-}
-
-/* FOOTER */
-.container-footer img {
-  width: 25px;
-}
-
-/* FOOTER*/
-.telefono-footer {
-  color: blanchedalmond;
-  display: flex;
-  float: right;
-}
-
-/* FOOTER */
-.container-footer {
-  background: radial-gradient(#D98880, #F4F6F7, #17202A);
-  padding: 10px;
-  display: flex;
-  justify-content: left;
-}
-
-/* TAMAÑO LOGOS*/
-.logo-footer img {
-  width: 25px;
-}
-
-.logo-footer {
-  padding: 15px;
-}
-
-/* CSS FOTOGRAFIA MANUAL */
-.texto-iso, .titulo-iso {
-  display: flex;
-  justify-content: center;
-  font-family: "Space Mono", monospace;
-}
-
-.titulo-iso {
-  font-size: xx-large;
-  padding: 20px;
-}
-
-.texto-iso {
-  padding: 15px;
-}
-
-.fotos-iso {
-  display: flex;
-  justify-content: center;
-  transition: all 1s;
-}
-
-/* CSS FOTOGRAFIA MANUAL */
-.fotos-iso img {
-  width: 500px;
-  padding: 20px;
-}
-
-/* GALERIA */
+/* galeria */
 .galeria-container img {
   width: 100%;
   height: 100%;
@@ -95,7 +20,7 @@
   border: 3px solid black;
 }
 
-/* GALERIA */
+/* galeria */
 .galeria-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -104,25 +29,26 @@
   grid-gap: 10px;
 }
 
-/* fondo de pantalla al header */
+/* header y section */
 header {
   padding: 25px;
 }
 
-/* fondo de pantalla para todas mis paginas al section */
+/* header y section (fondo de pantalla para el body) */
 body {
-  background: radial-gradient(#17202A, #E74C3C, #808B96, #F5B7B1, #F5B7B1);
+  background: radial-gradient(#34495E, #85929E, #BFC9CA);
 }
 
-/* reduccion de tamaño al logo del proyecto */
+/* header y section (reduccion de tamaño al logo del proyecto) */
 .animacion-logo {
   display: flex;
   justify-content: center;
-  animation-duration: 7s;
+  animation-duration: 15s;
   animation-name: animLogo;
   animation-iteration-count: infinite;
 }
 
+/* header y section */
 @keyframes animLogo {
   from {
     transform: rotatey(0deg);
@@ -143,11 +69,12 @@ body {
     -moz-transform: rotatey(360deg);
   }
 }
+/* header y section */
 .logo img {
   width: 30%;
 }
 
-/* ALINEACION DE TITULOS PARA MIS SECCIONES DE INICIO */
+/* header y section (titulos para mi pagina web) */
 .titulo-section {
   text-align: center;
   font-size: 40px;
@@ -155,25 +82,12 @@ body {
   font-weight: 100;
 }
 
-/* PATROCINADORES IMAGENES */
-.imgGrid img {
-  width: 100%;
-  height: 80%;
-}
-
-/* video malibu */
-.video-inicio {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-/* texto de la presentacion del index */
+/*  header y section (fuente del proyecto) */
 .texto-presentacion {
   font-family: "Space Mono", monospace;
 }
 
-/* social bar */
+/* header y section (social bar) */
 .social {
   position: fixed;
   right: 0;
@@ -185,12 +99,12 @@ body {
   z-index: 100;
 }
 
-/* social bar */
+/* header y section (social bar) */
 .social ul {
   list-style: none;
 }
 
-/* social bar */
+/* header y section (social bar) */
 .social ul li a {
   display: inline-block;
   color: #fff;
@@ -199,7 +113,7 @@ body {
   text-decoration: none;
 }
 
-/* social bar */
+/* header y section (social bar) */
 .social ul li .icon-facebook2 {
   background: #3b5998;
 }
@@ -224,7 +138,20 @@ body {
   background: #2980B9;
 }
 
-/* CSS SOBRE MI */
+/* inicio (patrocinadores imagenes) */
+.imgGrid img {
+  width: 100%;
+  height: 80%;
+}
+
+/* inicio (video malibu) */
+.video-inicio {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* sobre mi */
 .contenedor-sobremi p {
   width: 100%;
   max-width: 1000px;
@@ -234,7 +161,7 @@ body {
   font-family: "Space Mono", monospace;
 }
 
-/* CSS SOBRE MI */
+/* sobre mi */
 .contenedor-sobremi img {
   width: 25%;
   float: left;
@@ -244,7 +171,7 @@ body {
   padding: 10px 10px;
 }
 
-/* CSS SOBRE MI */
+/* sobre mi */
 .titulo-sobremi {
   display: flex;
   justify-content: center;
@@ -254,12 +181,14 @@ body {
   padding: 20px;
 }
 
+/* sobre mi */
 .animacion-sobremi {
   animation-duration: 3s;
   animation-name: animTexto;
   margin: 20px;
 }
 
+/* sobre mi */
 @keyframes animTexto {
   from {
     margin-left: 100%;

@@ -1,22 +1,22 @@
 @import "../base/mixin";
-/* fondo de pantalla al header */
+/* header y section */
 header {
     padding: 25px;
 }
-/* fondo de pantalla para todas mis paginas al section */
+/* header y section (fondo de pantalla para el body) */
 body {
-    background: radial-gradient(#17202A, #E74C3C, #808B96, #F5B7B1, #F5B7B1);
+    background: radial-gradient(#34495E, #85929E, #BFC9CA);
 }
 
-/* reduccion de tamaño al logo del proyecto */
+/* header y section (reduccion de tamaño al logo del proyecto) */
 .animacion-logo {
     display: flex;
     justify-content: center;
-    animation-duration: 7s;
+    animation-duration: 15s;
     animation-name: animLogo;
     animation-iteration-count: infinite;
 }
-
+/* header y section */
 @keyframes animLogo {
     from {
         @include prefijo (rotatey(0deg));
@@ -30,8 +30,50 @@ body {
         @include prefijo (rotatey(360deg));
     }
 }
+/* header y section */
 .logo img {
     width: 30%;
     
 }
+/* header y section (titulos para mi pagina web) */
+.titulo-section {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: 100;
+}
+/*  header y section (fuente del proyecto) */
+.texto-presentacion {
+    font-family: 'Space Mono', monospace;
+}
+/* header y section (social bar) */
+.social {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+/* header y section (social bar) */
+.social ul {
+    list-style: none;
+}
+/* header y section (social bar) */
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+/* header y section (social bar) */
+.social ul li .icon-facebook2 {background:#3b5998;}
+.social ul li .icon-instagram {background:#EC7063;}
+.social ul li .icon-whatsapp {background:#2ECC71;}
+.social ul li .icon-pinterest {background:#ae181f;}
+.social ul li .icon-youtube {background:#C0392B;}
+.social ul li .icon-linkedin {background:#2980B9;}
 

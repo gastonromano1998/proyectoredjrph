@@ -1,4 +1,4 @@
-/* CSS SOBRE MI */
+/* sobre mi */
 .contenedor-sobremi p {
     width: 100%;
     max-width: 1000px;
@@ -8,7 +8,7 @@
     font-family: 'Space Mono', monospace;
 }
 
-/* CSS SOBRE MI */
+/* sobre mi */
 .contenedor-sobremi img {
     width: 25%;
     float: left;
@@ -18,7 +18,7 @@
     padding: 10px 10px;
 }
 
-/* CSS SOBRE MI */
+/* sobre mi */
 .titulo-sobremi {
     display: flex;
     justify-content: center;
@@ -27,13 +27,13 @@
     font-size: xx-large;
     padding: 20px;
 }
-
+/* sobre mi */
 .animacion-sobremi {
     animation-duration: 3s;
     animation-name: animTexto;
     margin: 20px;
 }
-
+/* sobre mi */
 @keyframes animTexto {
     from {
         margin-left: 100%;
