@@ -12,14 +12,6 @@
   background-color: #5D6D7E;
 }
 
-/* galeria */
-.galeria-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border: 3px solid black;
-}
-
 /* header y section */
 header {
   padding: 25px;
@@ -66,12 +58,17 @@ body {
   width: 30%;
 }
 
+.logo-nav {
+  width: 20%;
+}
+
 /* header y section (titulos para mi pagina web) */
 .titulo-section {
   text-align: center;
   font-size: 40px;
   margin-top: 50px;
   font-weight: 100;
+  padding: 25px;
 }
 
 /*  header y section (fuente del proyecto) */
@@ -164,16 +161,6 @@ body {
   padding: 10px 10px;
 }
 
-/* sobre mi */
-.titulo-sobremi {
-  display: flex;
-  justify-content: center;
-  font-family: "Space Mono", monospace;
-  margin-bottom: 60px;
-  font-size: xx-large;
-  padding: 20px;
-}
-
 /* MOBILE FIRST GALERIA */
 @media only screen and (max-width: 576px) {
   .grid-container {
@@ -185,7 +172,7 @@ body {
 /* LISTAS */
 /* TITULOS DEL INICIO */
 .titulo-section {
-  color: #ECF0F1;
+  color: #E4E721;
 }
 
 /* TITULO DEL SOBRE MI */
@@ -195,16 +182,6 @@ body {
 
 /* TEXTO DEL SOBRE MI */
 .contenedor-sobremi p {
-  color: #ECF0F1;
-}
-
-/* TITULO FOTOGRAFIA MANUAL */
-.titulo-iso {
-  color: #ECF0F1;
-}
-
-/* TEXTO FOTOGRAFIA MANUAL */
-.texto-iso {
   color: #ECF0F1;
 }
 

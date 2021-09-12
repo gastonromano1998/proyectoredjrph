@@ -9,10 +9,14 @@ blanchedalmond,
 brown,
 #2E4053,
 #ECF0F1,
-#ECF0F1;
+#ECF0F1,
+#ffbf00,
+#DD4B4B,
+#AD2424,
+#E4E721;
 /* TITULOS DEL INICIO */
 .titulo-section {
-    color:  nth($colores, 9);
+    color:  nth($colores, 14);
 }
 /* TITULO DEL SOBRE MI */
 .titulo-sobremi {
@@ -22,12 +26,6 @@ brown,
 .contenedor-sobremi p {
     color: nth($colores, 4);
 }
-/* TITULO FOTOGRAFIA MANUAL */
-.titulo-iso {
-    color: nth($colores, 4);
-}
-/* TEXTO FOTOGRAFIA MANUAL */
-.texto-iso {
-    color: nth($colores, 10);
-}
+
+
 
