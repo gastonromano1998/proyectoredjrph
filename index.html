@@ -5,22 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- protocolo open graph -->
-  <meta property="og:title"
-    content="redjr.ph es una pagina web basada en la fotografia de paisaje. Encontraras fotos de todo el mundo, tambien una guia para que aprendas fotografia manual y fotos guia de distintos planos.">
-  <meta property="og:image" content="">
-  <!-- se coloca la url una vez que este subida -->
-  <meta property="" content="">
-  <meta property="og:description" content="redjr.ph fotografia de paisaje">
-  <!--descripcion de mi pagina web para aplicar SEO (35 palabras) -->
-  <meta name="descripcion" content="pagina web de fotografia basada en la imagen visual de paisajes. fotos increibles 
-    en el que recorremos varios paises de europa, estados unidos, argentina y mas. Ademas hay una seccion en donde podemos apreciar
-    y aprender acerca de la fotografia manual">
-  <!-- es una especie de keywords para aplicar al SEO -->
-  <meta name="keywords"
-    content="fotografia, fotos, paisaje, camara, europa, estados unidos, argentina, fotografia manual, instagram, pinterest, musica">
-  <!-- og author -->
-  <meta property="og:author" content="Gaston Romano">
+  <!-- Description y Key -->
+  <meta name="description" content="redjr.ph es un fotografo profesional que se dedica a la fotografia de paisaje que trata
+  de transmitirle a las personas lo bonito que es el mundo e invita a conocer a todo aquel que le interese fotografiar manual y asi conseguir 
+  historias que seran grabadas para toda la eternidad">
+  <meta name="keywords" content="paisajes, camara, fotografia, cultura, montaña, mar, nieve, frio, calor, ciudades, pueblos
+  europa, argentina, estados unidos">
+  <!-- Open Gra (seo) -->
+  <meta property="og:image" content="https://i.ibb.co/S08MynP/Logo-Makr-8-MUj-Io.png">
+  <meta property="og:title" content="redjr.ph">
+  <meta property="og:description" content="redjr.ph es un fotografo profesional que se dedica a la fotografia de paisaje que trata
+  de transmitirle a las personas lo bonito que es el mundo e invita a conocer a todo aquel que le interese fotografiar manual y asi conseguir 
+  historias que seran grabadas para toda la eternidad">
+  <meta property="og:author" content="Gaston Jorge Romano">
   <!-- titulo del navegador 30 caracteres -->
   <title>redjr.ph- La vida te dara fotografias</title>
   <!-- CSS BOOSTRAP -->
@@ -93,26 +90,59 @@
     </div>
   </section>
   <main>
-    <!-- presentacion -->
-    <section class="container">
-      <div>
-        <h1 class="titulo-section">Presentacion</h1>
-      </div>
-      <div class="container h-100 w-75 my-5">
+    <section class="my-5 pt-3">
+      <!-- grid contenedor de carousel y card -->
+      <div class="container h-100">
         <div class="row">
-          <div class="col-lg-7 px-3 col-md-12">
-            <img class="w-100 h-100" src="https://i.ibb.co/G2jHPpr/backiee-68349.jpg" alt="">
+          <!-- presentacion de la empresa -->
+          <div class=" col-lg-5 col-md-12 d-flex align-items-center px-3">
+            <div class="text-white">
+              <h2 class="p-1 fs-1 text-dark">Gaston Romano</h2>
+              <h3 class="py-2 text-muted fs-2 ">Fotografo de paisaje</h3>
+              <p class="py-2 fs-4">
+                "Las fotografias abren puertas al pasado, pero tambien permiten echar un vistazo al futuro"
+              </p>
+            </div>
           </div>
-          <div class="col-lg-5 col-md-12 d-flex align-items-center px-3">
-            <p class="texto-presentacion">Soy Gaston Romano, fundador de redjr.ph, un sitio web de fotografia de paisaje
-              en el que van a poder apreciar digitalmente la naturaleza, paisajes y las
-              ciudades mas bonitas que nuestro planeta.
-              Mi fanatismo por la fotografia comienza meses antes de hacer un viaje muy
-              importante en mi vida, queria fotografiarlo todo, pero a lo grande!
-              En ese transcurso averigue y estudie la fotografia manual. Un dia me levante
-              y dije: "hoy la compro".
-              Una Canon Eos Revel T7 fue mi primer y unica camara hasta el momento... y bueno,
-              el resto es historia.</p>
+          <!-- fin presentacion -->
+          <!-- carousel-->
+          <div class="col-lg-7  col-md-12  px-3">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://i.ibb.co/dtM15vc/backiee-116433.jpg" class="d-block w-100 opacity-75"
+                    alt="foto de fibra optica conectada a entradas de conectores upc/apc">
+                  <div class="carousel-caption d-none d-md-block fuente-carousel ">
+                    <h3>Galeria</h3>
+                    <h5>Fotografias de alta calidad RAM traidas de paisajes espectaculares.</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.ibb.co/0tc8J8K/backiee-129318.jpg" class="d-block w-100 opacity-75"
+                    alt="foto de fibra optica conectada a equipo de trasmision activo">
+                  <div class="carousel-caption d-none d-md-block fuente-carousel">
+                    <h3>Fotografia manual</h3>
+                    <h5>Consejos para que aprendas a usar la camara en el modo manual.</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -172,25 +202,29 @@
           <div data-aos="flip-up" class="card">
             <img src="https://i.ibb.co/T1sLcYr/Whats-App-Image-2021-09-13-at-22-30-16.jpg" class="card-img-top"
               alt="foto de distintas camaras con fondos de muchos colores">
-            <div class="card-body">
-              <h5 class="card-title">Magia</h5>
-              <p class="card-text">Es sin duda alguna una de las disciplinas mas emocionantes a las que un fotografo se puede enfrentar</p>
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-secondary">Magia</h5>
+              <p class="card-text text-secondary">Es sin duda alguna una de las disciplinas mas emocionantes a las que
+                un fotografo se
+                puede enfrentar</p>
             </div>
           </div>
           <div data-aos="flip-up" class="card">
             <img src="https://i.ibb.co/TgMNHRX/Whats-App-Image-2021-09-13-at-22-21-41.jpg" class="card-img-top"
               alt="foto de un perro blanco con gafas rojas">
-            <div class="card-body">
-              <h5 class="card-title">Rayos</h5>
-              <p class="card-text">Es el metodo para hacer fotografias por la noche usando una velocidad de obturacion muy baja</p>
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-secondary">Rayos</h5>
+              <p class="card-text text-secondary">Es el metodo para hacer fotografias por la noche usando una velocidad
+                de obturacion
+                muy baja</p>
             </div>
           </div>
           <div data-aos="flip-up" class="card">
             <img src="https://i.ibb.co/Gpfzg5C/Whats-App-Image-2021-09-13-at-22-30-17.jpg" class="card-img-top"
               alt="foto de una casa en la que hay un lago en frente, rodeada de muchos arboles">
-            <div class="card-body">
-              <h5 class="card-title">Luz</h5>
-              <p class="card-text">La composicion ideal (10seg.f/2.8,ISO1250)</p>
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-secondary">Luz</h5>
+              <p class="card-text text-secondary">La composicion ideal (10seg.f/2.8,ISO1250)</p>
             </div>
           </div>
         </div>
@@ -239,48 +273,24 @@
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Paises</h5>
-          <p>
-            <a href="" class="text-white" style="text-decoration: none;">Argentina</a>
-          </p>
-          <p>
-            <a href="" class="text-white" style="text-decoration: none;">Union Europea</a>
-          </p>
-          <p>
-            <a href="" class="text-white" style="text-decoration: none;">Estados unidos</a>
-          </p>
-          <p>
-            <a href="" class="text-white" style="text-decoration: none;">Chile</a>
-          </p>
+          <p><a href="" class="text-white" style="text-decoration: none;">Argentina</a></p>
+          <p> <a href="" class="text-white" style="text-decoration: none;">Union Europea</a></p>
+          <p><a href="" class="text-white" style="text-decoration: none;">Estados unidos</a></p>
+          <p><a href="" class="text-white" style="text-decoration: none;">Chile</a></p>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold text-warning">fotografia manual</h5>
-          <p>
-            <a href="" class="text-white" style="text-decoration: none;">Triangulo de exposicion</a>
-          </p>
-          <p>
-            <a href="" class="text-white" style="text-decoration: none;">Velocidad de obturacion</a>
-          </p>
-          <p>
-            <a href="" class="text-white" style="text-decoration: none;">Apertura de diafragma</a>
-          </p>
-          <p>
-            <a href="" class="text-white" style="text-decoration: none;">ISO</a>
-          </p>
+          <p><a href="" class="text-white" style="text-decoration: none;">Triangulo de exposicion</a></p>
+          <p><a href="" class="text-white" style="text-decoration: none;">Velocidad de obturacion</a></p>
+          <p><a href="" class="text-white" style="text-decoration: none;">Apertura de diafragma</a></p>
+          <p><a href="" class="text-white" style="text-decoration: none;">ISO</a></p>
         </div>
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacto</h5>
-          <p>
-            <i class="icon-home3"></i> Florida 9680, Del Viso, Buenos Aires
-          </p>
-          <p>
-            <i class="icon-mail"></i>gaastonromano@gmail.com
-          </p>
-          <p>
-            <i class="icon-phone"></i>+54 9 11 5977 6842
-          </p>
-          <p>
-            <i class="icon-spotify"></i>gastonjromano
-          </p>
+          <p><i class="icon-home3"></i> Florida 9680, Del Viso, Buenos Aires</p>
+          <p><i class="icon-mail"></i>gaastonromano@gmail.com</p>
+          <p><i class="icon-phone"></i>+54 9 11 5977 6842</p>
+          <p><i class="icon-spotify"></i>gastonjromano</p>
         </div>
       </div>
       <hr class="mb-4">
