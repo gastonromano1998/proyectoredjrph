@@ -1,31 +1,25 @@
 /* LISTAS */
 $colores:
-red,
-#914c0c,
-#F7DC6F, 
-#ECF0F1, 
-#85929E,
-blanchedalmond,
-brown,
-#2E4053,
-#ECF0F1,
-#ECF0F1,
-#ffbf00,
-#DD4B4B,
-#AD2424,
-#E4E721,
-#000000;
+#000000,
+#14213d,
+#fca311,
+#e5e5e5,
+#ffffff,
+#ffe6a7;
 /* TITULOS DEL INICIO */
 .titulo-section {
-    color:  nth($colores, 15);
+    color:  nth($colores, 6);
 }
 /* TITULO DEL SOBRE MI */
 .titulo-sobremi {
-    color: nth($colores , 9);
+    color: nth($colores , 4);
 }
 /* TEXTO DEL SOBRE MI */
 .contenedor-sobremi p {
-    color: nth($colores, 4);
+    color: nth($colores, 6);
+}
+.texto-presentacion {
+    color: nth($colores, 6);
 }
 
 

@@ -19,7 +19,7 @@ header {
 
 /* header y section (fondo de pantalla para el body) */
 body {
-  background: radial-gradient(#34495E, #85929E, #BFC9CA);
+  background: radial-gradient(#bb9457, #432818);
 }
 
 /* header y section (reduccion de tamaño al logo del proyecto) */
@@ -68,7 +68,7 @@ body {
   font-size: 40px;
   margin-top: 50px;
   font-weight: 100;
-  padding: 25px;
+  padding: 40px;
 }
 
 /*  header y section (fuente del proyecto) */
@@ -128,6 +128,10 @@ body {
   background: #2980B9;
 }
 
+.color-nav {
+  color: brown;
+}
+
 /* inicio (patrocinadores imagenes) */
 .imgGrid img {
   width: 100%;
@@ -172,17 +176,21 @@ body {
 /* LISTAS */
 /* TITULOS DEL INICIO */
 .titulo-section {
-  color: #000000;
+  color: #ffe6a7;
 }
 
 /* TITULO DEL SOBRE MI */
 .titulo-sobremi {
-  color: #ECF0F1;
+  color: #e5e5e5;
 }
 
 /* TEXTO DEL SOBRE MI */
 .contenedor-sobremi p {
-  color: #ECF0F1;
+  color: #ffe6a7;
+}
+
+.texto-presentacion {
+  color: #ffe6a7;
 }
 
 /*# sourceMappingURL=style.css.map */

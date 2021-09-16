@@ -5,7 +5,7 @@ header {
 }
 /* header y section (fondo de pantalla para el body) */
 body {
-    background: radial-gradient(#34495E, #85929E, #BFC9CA);
+    background: radial-gradient(#bb9457, #432818);
 }
 
 /* header y section (reduccion de tamaño al logo del proyecto) */
@@ -45,7 +45,7 @@ body {
     font-size: 40px;
     margin-top: 50px;
     font-weight: 100;
-    padding: 25px;
+    padding: 40px;
 }
 /*  header y section (fuente del proyecto) */
 .texto-presentacion {
@@ -83,3 +83,6 @@ body {
 .social ul li .icon-youtube {background:#C0392B;}
 .social ul li .icon-linkedin {background:#2980B9;}
 
+.color-nav {
+    color: brown;
+}
