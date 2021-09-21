@@ -15,11 +15,14 @@
 
 /* sidebar tecnica sobre como fotografiar con estilo */
 #sidebar ul li {
-    color: black;
     list-style: none;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(100, 100, 100, .3);
     text-align: center;
+}
+#sidebar a {
+    text-decoration: none;
+    color: black;
 }
 
 /* sidebar tecnica sobre como fotografiar con estilo */
@@ -55,7 +58,11 @@
 .fotos-tecnica {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .texto-tecnica {
     font-size: large;
+}
+.background-tecnica {
+    background: url(https://i.ibb.co/m4qqNyt/Whats-App-Image-2021-09-13-at-22-30-17.jpg);
 }
