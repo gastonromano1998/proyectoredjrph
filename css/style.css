@@ -132,6 +132,19 @@ body {
   color: brown;
 }
 
+/* fotografia manual */
+.texto-tecnica {
+  font-size: large;
+  padding: 10px;
+}
+
+/* fotografia manual */
+.titulo-tecnica {
+  text-align: right;
+  color: #fefae0;
+  padding: 5px;
+}
+
 /* inicio (patrocinadores imagenes) */
 .imgGrid img {
   width: 100%;
@@ -195,78 +208,6 @@ body {
 
 .texto-tecnica {
   color: #ffffff;
-}
-
-/* sidebar tecnica sobre como fotografiar con estilo */
-#sidebar {
-  position: fixed;
-  width: 200px;
-  height: 100%;
-  background: #ddbea9;
-  left: -200px;
-  transition: all 500ms linear;
-}
-
-/* sidebar tecnica sobre como fotografiar con estilo */
-#sidebar.active {
-  left: 0px;
-}
-
-/* sidebar tecnica sobre como fotografiar con estilo */
-#sidebar ul li {
-  list-style: none;
-  padding: 15px 10px;
-  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
-  text-align: center;
-}
-
-#sidebar a {
-  text-decoration: none;
-  color: black;
-}
-
-/* sidebar tecnica sobre como fotografiar con estilo */
-.logo-canon {
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-  width: 70%;
-}
-
-/* sidebar tecnica sobre como fotografiar con estilo */
-#sidebar .toggle-btn {
-  position: absolute;
-  left: 230px;
-  top: 20px;
-  cursor: pointer;
-}
-
-/* sidebar tecnica sobre como fotografiar con estilo */
-#sidebar .toggle-btn span {
-  display: block;
-  width: 40px;
-  text-align: center;
-  font-size: 30px;
-  border: 3px solid #000;
-}
-
-/* sidebar tecnica sobre como fotografiar con estilo */
-.container-sidebar {
-  padding: 45px;
-}
-
-.fotos-tecnica {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.texto-tecnica {
-  font-size: large;
-}
-
-.background-tecnica {
-  background: url(https://i.ibb.co/m4qqNyt/Whats-App-Image-2021-09-13-at-22-30-17.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
